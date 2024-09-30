@@ -12,10 +12,10 @@ const ReactTooltip = dynamic(() => import('react-tooltip'), { ssr: false });
 const MyApp = ({ Component, pageProps }) => (
   <>
     <Head>
-      <title>Time Enna - Timezone Converter</title>
+      <title>Time Yenu - Timezone Converter</title>
       <meta
         name="description"
-        content="Time Enna is an app to help you look up the time across multiple timezones, a simple but helpful utility for the remote world."
+        content="Time Yenu is an app to help you look up the time across multiple timezones, a simple but helpful utility for the remote world."
       />
       <meta
         name="viewport"

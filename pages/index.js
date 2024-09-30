@@ -14,7 +14,6 @@ import {
 import Button from '../components/Button';
 import Logo from '../components/Logo';
 import Timeline from '../components/Timeline';
-import AboutTimeEnna from '../modals/AboutTimeEnna';
 import AddTimezoneModal from '../modals/AddTimezone';
 import styles from '../styles/Home.module.css';
 
@@ -51,15 +50,6 @@ const Home = () => {
             tooltip="Toggle 24 Hour Display"
             tooltipPosition="left"
           />
-          <Button
-            thin
-            className="ml-2"
-            icon={MdInfoOutline}
-            onClick={() => setAboutModalOpen(true)}
-            ariaLabel="About Time Enna"
-            tooltip="About Time Enna"
-            tooltipPosition="left"
-          />
         </div>
       </div>
 
@@ -75,7 +65,6 @@ const Home = () => {
         </Button>
       </div>
 
-      <AboutTimeEnna />
       <AddTimezoneModal />
     </div>
   );

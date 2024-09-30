@@ -13,7 +13,7 @@ const Logo = ({ small, disableAnimation }) => (
       width="246px"
       height="48px"
       src="/images/logo.svg"
-      alt="Time Enna - Timezone Converter - Logo"
+      alt="Timezone Converter"
     />
   </div>
 );
